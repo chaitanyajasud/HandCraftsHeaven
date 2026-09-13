@@ -3,11 +3,11 @@ import { createRoot } from 'react-dom/client'
 import './styles.css'
 
 const sarees = [
-  { id: 1, name: 'Gulmohar Dawn', craft: 'Handwoven Silk', price: 18900, tone: 'Marigold', image: '/sarees/gulmohar-dawn.jpg.jpeg', accent: '#e6ad45', tag: 'New' },
-  { id: 2, name: 'Indigo Monsoon', craft: 'Chanderi Cotton', price: 12400, tone: 'Indigo', image: '/sarees/images.jpeg', accent: '#324d69', tag: 'Bestseller' },
-  { id: 3, name: 'Mogra After Rain', craft: 'Tussar Silk', price: 21600, tone: 'Ivory', image: '/sarees/images%20(1).jpeg', accent: '#d9cbb4', tag: 'Limited' },
-  { id: 4, name: 'Rani Gulab', craft: 'Banarasi Katan', price: 28900, tone: 'Rose', image: '/sarees/images%20(2).jpeg', accent: '#bd5262', tag: 'New' },
-  { id: 5, name: 'Neem Shade', craft: 'Linen Silk', price: 9800, tone: 'Olive', image: '/sarees/images%20(3).jpeg', accent: '#87906b', tag: 'Everyday' },
+  { id: 1, name: 'Gulmohar Dawn', craft: 'Handwoven Silk', price: 18900, tone: 'Marigold', image: './sarees/gulmohar-dawn.jpg.jpeg', accent: '#e6ad45', tag: 'New' },
+  { id: 2, name: 'Indigo Monsoon', craft: 'Chanderi Cotton', price: 12400, tone: 'Indigo', image: './sarees/images.jpeg', accent: '#324d69', tag: 'Bestseller' },
+  { id: 3, name: 'Mogra After Rain', craft: 'Tussar Silk', price: 21600, tone: 'Ivory', image: './sarees/images (1).jpeg', accent: '#d9cbb4', tag: 'Limited' },
+  { id: 4, name: 'Rani Gulab', craft: 'Banarasi Katan', price: 28900, tone: 'Rose', image: './sarees/images (2).jpeg', accent: '#bd5262', tag: 'New' },
+  { id: 5, name: 'Neem Shade', craft: 'Linen Silk', price: 9800, tone: 'Olive', image: './sarees/images (3).jpeg', accent: '#87906b', tag: 'Everyday' },
 ]
 
 const formatPrice = (price) => `₹${price.toLocaleString('en-IN')}`
