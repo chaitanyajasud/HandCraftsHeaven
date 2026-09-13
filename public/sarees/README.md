@@ -1,12 +1,9 @@
-# Saree image folder
+# Saree catalog
 
-Put all product photos in this folder. The catalog in `src/main.jsx` uses these exact filenames:
+Put product photos and `products.csv` in this folder. Use this header row:
 
-- `gulmohar-dawn.jpg`
-- `indigo-monsoon.jpg`
-- `mogra-after-rain.jpg`
-- `rani-gulab.jpg`
-- `neem-shade.jpg`
-- `kumud-night.jpg`
+```csv
+product number,productimagename,product name,product details,product quantity,product price
+```
 
-Replace the starter placeholders with your own photos while keeping the filenames, or update the `image` values in the catalog data.
+Add one row per product. The `productimagename` value must exactly match an image filename in this folder. Product details can contain commas when wrapped in double quotes.

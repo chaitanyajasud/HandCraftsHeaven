@@ -11,7 +11,7 @@ npm run dev
 
 ## Add saree photos
 
-Place product photos in `public/sarees/` using the filenames listed in `public/sarees/README.md`. The storefront reads every product image from that single folder, and prices are managed alongside each product in `src/main.jsx`.
+Place product photos and `products.csv` in `public/sarees/`. The storefront reads each CSV row and finds its image in the same folder. Add another row to the CSV to add another product to the collection.
 
 ## Deploy to GitHub Pages
 
