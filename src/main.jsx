@@ -49,7 +49,7 @@ function App() {
       {searchOpen && <div className="search-drawer"><label htmlFor="search">Search the collection</label><input id="search" autoFocus value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Try ‘silk’ or ‘indigo’" /></div>}
 
       <main id="top">
-        <section className="hero" aria-labelledby="hero-title">
+        <section className="hero" style={{ backgroundImage: "url('./sarees/Background.jpg')" }} aria-labelledby="hero-title">
           <div className="hero-copy">
             <p className="eyebrow"><span className="eyebrow-line" /> The new heirloom</p>
             <h1 id="hero-title">Woven for<br /><em>your</em> becoming.</h1>
