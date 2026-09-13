@@ -3,12 +3,11 @@ import { createRoot } from 'react-dom/client'
 import './styles.css'
 
 const sarees = [
-  { id: 1, name: 'Gulmohar Dawn', craft: 'Handwoven Silk', price: 18900, tone: 'Marigold', image: '/sarees/gulmohar-dawn.jpg', accent: '#e6ad45', tag: 'New' },
-  { id: 2, name: 'Indigo Monsoon', craft: 'Chanderi Cotton', price: 12400, tone: 'Indigo', image: '/sarees/indigo-monsoon.jpg', accent: '#324d69', tag: 'Bestseller' },
-  { id: 3, name: 'Mogra After Rain', craft: 'Tussar Silk', price: 21600, tone: 'Ivory', image: '/sarees/mogra-after-rain.jpg', accent: '#d9cbb4', tag: 'Limited' },
-  { id: 4, name: 'Rani Gulab', craft: 'Banarasi Katan', price: 28900, tone: 'Rose', image: '/sarees/rani-gulab.jpg', accent: '#bd5262', tag: 'New' },
-  { id: 5, name: 'Neem Shade', craft: 'Linen Silk', price: 9800, tone: 'Olive', image: '/sarees/neem-shade.jpg', accent: '#87906b', tag: 'Everyday' },
-  { id: 6, name: 'Kumud Night', craft: 'Kanjivaram Silk', price: 34200, tone: 'Plum', image: '/sarees/kumud-night.jpg', accent: '#5d344b', tag: 'Collector' },
+  { id: 1, name: 'Gulmohar Dawn', craft: 'Handwoven Silk', price: 18900, tone: 'Marigold', image: '/sarees/gulmohar-dawn.jpg.jpeg', accent: '#e6ad45', tag: 'New' },
+  { id: 2, name: 'Indigo Monsoon', craft: 'Chanderi Cotton', price: 12400, tone: 'Indigo', image: '/sarees/images.jpeg', accent: '#324d69', tag: 'Bestseller' },
+  { id: 3, name: 'Mogra After Rain', craft: 'Tussar Silk', price: 21600, tone: 'Ivory', image: '/sarees/images%20(1).jpeg', accent: '#d9cbb4', tag: 'Limited' },
+  { id: 4, name: 'Rani Gulab', craft: 'Banarasi Katan', price: 28900, tone: 'Rose', image: '/sarees/images%20(2).jpeg', accent: '#bd5262', tag: 'New' },
+  { id: 5, name: 'Neem Shade', craft: 'Linen Silk', price: 9800, tone: 'Olive', image: '/sarees/images%20(3).jpeg', accent: '#87906b', tag: 'Everyday' },
 ]
 
 const formatPrice = (price) => `₹${price.toLocaleString('en-IN')}`
@@ -35,7 +34,7 @@ function App() {
   return (
     <div className="site-shell">
       <header className="topbar">
-        <a className="wordmark" href="#top" aria-label="Saanjh Studio home"><span>SAANJH</span><small>STUDIO / 2024</small></a>
+        <a className="wordmark" href="#top" aria-label="Saanjh Studio home"><span>Krushna Collection</span><small>STUDIO / 2024</small></a>
         <nav className="main-nav" aria-label="Main navigation">
           <a href="#collection">The collection</a>
           <a href="#story">Our story</a>
